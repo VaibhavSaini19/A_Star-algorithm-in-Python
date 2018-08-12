@@ -78,6 +78,8 @@ def A_star(graph,start,goal):
 
 
 mazeMap.plot_neighbours()
-print(A_star(mazeMap.cells,(6,6),(9,1)))
+start = (6,6)
+destination = (9,1)
+print(A_star(mazeMap.cells, start, destination))
 
 
